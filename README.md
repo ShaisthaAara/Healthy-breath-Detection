@@ -7,36 +7,51 @@ Developed a transformer-based AI model that analyzes lung sound recordings to de
 Watch the demo video to see Healthy-Breath-Detection in action!
 
 # Installation Instructions
+Frontend (Next.js)
+Clone the repository
 
-First, run the development server:
+git clone https://github.com/tauseef-2611/Healthy-Breath-Detection.git
+cd Healthy-Breath-Detection/frontend
+Install dependencies
 
-```bash
+npm install
+Run the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Backend (Flask API)
+Navigate to the backend directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+cd ../backend
+Create a virtual environment
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+Install dependencies
 
-## Learn More
+pip install -r requirements.txt
+Run the Flask API
 
-To learn more about Next.js, take a look at the following resources:
+flask run
+The API will be running on http://localhost:5000.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Project Structure
+Healthy-Breath-Detection/
+├── frontend/           # Next.js frontend application
+│   ├── components/     # React components
+│   ├── pages/          # Next.js pages
+│   ├── public/         # Public assets
+│   └── styles/         # CSS styles
+│
+├── backend/            # Flask API for model connection
+│   ├── app.py          # Main Flask application
+│
+├── README.md           # Project readMe file
+└── requirements.txt    # Backend dependencies
+Contributing
+We welcome contributions! Please fork the repository and submit pull requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
