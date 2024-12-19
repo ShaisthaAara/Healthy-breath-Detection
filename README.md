@@ -1,6 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Healthy Breathe Detection Transformer
+Developed a transformer-based AI model that analyzes lung sound recordings to detect respiratory conditions early. By capturing long-range dependencies in spectrograms, our model identifies subtle abnormalities that traditional stethoscope methods often miss.
+
+# Demo Video
+Watch the demo video to see Healthy-Breath-Detection in action!
+
+# Installation Instructions
 
 First, run the development server:
 
