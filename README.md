@@ -3,8 +3,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Healthy Breathe Detection Transformer
 Developed a transformer-based AI model that analyzes lung sound recordings to detect respiratory conditions early. By capturing long-range dependencies in spectrograms, our model identifies subtle abnormalities that traditional stethoscope methods often miss.
 
-# Demo Video
-Watch the demo video to see Healthy-Breath-Detection in action!
+## Demo Video
+
+<video width="640" height="480" controls>
+  <source src="https://github.com/tauseef-2611/Healthy-Breath-Detection/blob/main/Healthybreathedemo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+Watch the [demo video](https://github.com/tauseef-2611/Healthy-Breath-Detection/blob/main/Healthybreathedemo.mp4) to see Healthy-Breath-Detection in action!
 
 # Installation Instructions
 Frontend (Next.js)
