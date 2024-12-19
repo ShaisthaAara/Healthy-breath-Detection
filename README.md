@@ -11,37 +11,55 @@ Developed a transformer-based AI model that analyzes lung sound recordings to de
 </video>
 Watch the [demo video](https://github.com/tauseef-2611/Healthy-Breath-Detection/blob/main/Healthybreathedemo.mp4) to see Healthy-Breath-Detection in action!
 
-# Installation Instructions
-Frontend (Next.js)
-Clone the repository
 
-git clone https://github.com/tauseef-2611/Healthy-Breath-Detection.git
-cd Healthy-Breath-Detection/frontend
-Install dependencies
+## Installation Instructions
 
-npm install
-Run the development server
+### Frontend (Next.js)
 
-npm run dev
-Open http://localhost:3000 with your browser to see the result.
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/tauseef-2611/Healthy-Breath-Detection.git
+   cd Healthy-Breath-Detection/frontend
+   ```
 
-Backend (Flask API)
-Navigate to the backend directory
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
 
-cd ../backend
-Create a virtual environment
+3. **Run the development server**
+   ```sh
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install dependencies
+### Backend (Flask API)
 
-pip install -r requirements.txt
-Run the Flask API
+1. **Navigate to the backend directory**
+   ```sh
+   cd ../backend
+   ```
 
-flask run
-The API will be running on http://localhost:5000.
+2. **Create a virtual environment**
+   ```sh
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
-Project Structure
+3. **Install dependencies**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Flask API**
+   ```sh
+   flask run
+   ```
+   The API will be running on [http://localhost:5000](http://localhost:5000).
+
+## Project Structure
+
+```
 Healthy-Breath-Detection/
 ├── frontend/           # Next.js frontend application
 │   ├── components/     # React components
@@ -54,9 +72,13 @@ Healthy-Breath-Detection/
 │
 ├── README.md           # Project readMe file
 └── requirements.txt    # Backend dependencies
-Contributing
+```
+
+## Contributing
+
 We welcome contributions! Please fork the repository and submit pull requests.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
 
+This project is licensed under the MIT License. See the LICENSE file for details.
+```
